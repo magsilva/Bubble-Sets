@@ -1,8 +1,9 @@
 
 ## Bubble Sets
 
-This is an implementation of [bubble sets] [1]
+A Java implementation of Christopher Collins' [bubble sets] [1]
 without the use of external libraries.
+A JavaScript implementation can be found [here](https://github.com/JosuaKrause/bubblesets-js).
 
 This project can be build in eclipse as well as with Maven.
 Use `mvn install` to generate jars in the *target/* directory.
@@ -91,4 +92,4 @@ However, this requires an additional repository in the repositories section (`<r
         <url>http://josuakrause.github.io/info/mvn-repo/releases</url>
     </repository>
 
-[1]: http://faculty.uoit.ca/collins/research/bubblesets/ "Collins, Christopher; Penn, Gerald; Carpendale, Sheelagh. Bubble Sets: Revealing Set Relations over Existing Visualizations. In IEEE Transactions on Visualization and Computer Graphics (Proceedings of the IEEE Conference on Information Visualization (InfoVis '09)), 15(6): November-December, 2009."
+[1]: http://vialab.science.uoit.ca/portfolio/bubblesets "Collins, Christopher; Penn, Gerald; Carpendale, Sheelagh. Bubble Sets: Revealing Set Relations over Existing Visualizations. In IEEE Transactions on Visualization and Computer Graphics (Proceedings of the IEEE Conference on Information Visualization (InfoVis '09)), 15(6): November-December, 2009."
