@@ -31,38 +31,10 @@
 
 	<distributionManagement>
 		<repository>
-			<id>IroniaCorp</id>
-			<url>dav:http://www.ironiacorp.com/repo/maven2/</url>
+			<id>magsilva</id>
+			<url>dav:https://magsilva.pro.br/repo/maven2/</url>
 		</repository>
 	</distributionManagement>
-
-	<repositories>
-		<repository>
-                        <id>repo1</id>
-                        <url>http://repo1.maven.org/maven2/</url>
-                        <releases>
-                                <enabled>true</enabled>
-                                <updatePolicy>interval:10080</updatePolicy>
-                        </releases>
-                        <snapshots>
-                                <enabled>false</enabled>
-                        </snapshots>
-                </repository>
-
-                <repository>
-                        <id>IroniaCorp</id>
-                        <name>Ironia Corporation</name>
-                        <url>http://www.ironiacorp.com/repo/maven2</url>
-                        <releases>
-                                <enabled>true</enabled>
-                                <updatePolicy>interval:10080</updatePolicy>
-                        </releases>
-                        <snapshots>
-                                <enabled>true</enabled>
-                                <updatePolicy>interval:10080</updatePolicy>
-                        </snapshots>
-                </repository>
-	</repositories>
 
 	<dependencies>
 		<dependency>
